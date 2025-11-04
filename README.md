@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# HNG Stage 3: Advanced Todo List App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a sophisticated, full-stack, real-time Todo List application built with React Native (Expo) and Convex.
 
-## Get started
+This project fulfills all the requirements for Stage 3, including:
+* Pixel-perfect UI from the Figma design
+* Light/Dark theme switching with persistence
+* Full real-time CRUD operations (Create, Read, Update, Delete)
+* Search and Filter functionality
+* Drag and Sort capability
 
-1. Install dependencies
+## 🚀 Demo
 
-   ```bash
-   npm install
-   ```
+[LINK_TO_YOUR_APK_AND_VIDEO]
 
-2. Start the app
+*A link to a Google Drive folder containing the final `.apk` build and a video demonstration of all features.*
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ✨ Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+* **Theme Switcher:** Seamlessly toggle between light and dark modes. Your preference is saved and persists across app restarts.
+* **Real-Time CRUD:** Powered by Convex, all create, update, and delete operations happen instantly and sync across all devices.
+* **Search & Filter:** Instantly filter the list by "All," "Active," or "Completed" status, and search by title on-the-fly.
+* **Drag & Sort:** Easily reorder your todos by long-pressing and dragging them into place.
+* **Modern UI:** A clean, card-based design with smooth animations and loading states, built with Styled Components.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tech Stack
 
-When you're ready, run:
+* **Frontend:** React Native (Expo)
+* **Backend:** Convex (Real-time Database & Serverless Functions)
+* **Styling:** Styled Components (with ThemeProvider)
+* **Navigation & Routing:** Expo Router
+* **Gestures:** React Native Gesture Handler & Reanimated
+* **Drag & Drop:** React Native Draggable FlatList
+* **Language:** TypeScript
+
+---
+
+## 🏁 Getting Started
+
+Follow these instructions to set up and run the project locally.
+
+### 1. Prerequisites
+
+* [Node.js](https://nodejs.org/) (LTS version recommended)
+* [Yarn](https://classic.yarnpkg.com/en/docs/install) (or `npm`)
+* [Expo Go](https://expo.dev/go) app on your mobile device
+* A Convex account (it's free): [https://convex.dev](https://convex.dev)
+
+### 2. Clone the Repository
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone [YOUR_GITHUB_REPO_URL]
+cd [YOUR_PROJECT_FOLDER_NAME]
